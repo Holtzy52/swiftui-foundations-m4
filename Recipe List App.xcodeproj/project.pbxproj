@@ -11,12 +11,12 @@
 		6F374CDA27194DC10058D78D /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F374CD927194DC10058D78D /* RecipeListView.swift */; };
 		6F374CDC27194DC20058D78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F374CDB27194DC20058D78D /* Assets.xcassets */; };
 		6F374CDF27194DC20058D78D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F374CDE27194DC20058D78D /* Preview Assets.xcassets */; };
-		6F374CEB271950F30058D78D /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F374CEA271950F30058D78D /* recipes.json */; };
 		6F374CED271951480058D78D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F374CEC271951480058D78D /* Recipe.swift */; };
 		6F374CEF2719524E0058D78D /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F374CEE2719524E0058D78D /* RecipeModel.swift */; };
 		6F374CF1271953AF0058D78D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F374CF0271953AF0058D78D /* DataService.swift */; };
 		6F374CF3271ABBA70058D78D /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F374CF2271ABBA70058D78D /* RecipeDetailView.swift */; };
 		6F374D11271C03920058D78D /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F374D10271C03920058D78D /* RecipeTabView.swift */; };
+		6F374D13271D7AF50058D78D /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F374D12271D7AF50058D78D /* recipes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +25,12 @@
 		6F374CD927194DC10058D78D /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		6F374CDB27194DC20058D78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F374CDE27194DC20058D78D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6F374CEA271950F30058D78D /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		6F374CEC271951480058D78D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		6F374CEE2719524E0058D78D /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		6F374CF0271953AF0058D78D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		6F374CF2271ABBA70058D78D /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		6F374D10271C03920058D78D /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		6F374D12271D7AF50058D78D /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = ../../../../../../../Downloads/recipes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 		6F374CE927194E1E0058D78D /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				6F374CEA271950F30058D78D /* recipes.json */,
+				6F374D12271D7AF50058D78D /* recipes.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -184,8 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F374CDF27194DC20058D78D /* Preview Assets.xcassets in Resources */,
-				6F374CEB271950F30058D78D /* recipes.json in Resources */,
 				6F374CDC27194DC20058D78D /* Assets.xcassets in Resources */,
+				6F374D13271D7AF50058D78D /* recipes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
